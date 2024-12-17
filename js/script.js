@@ -39,4 +39,5 @@ const showMinMax = function(expenses) {
 // Write click event listener for 'button' and call the showMinMax function
 button.addEventListener("click", function () {
     showMinMax(expenses);
+    button.disabled = true;
 })
